@@ -1,0 +1,120 @@
+a{text-decoration:none; list-style:none; color:#000000}
+		a:visited{text-decoration:none; list-style:none; color:#000000}
+		body
+		{
+			background-color : #ffffff;
+		}
+		.odd
+		{
+			padding:7px 3px 7px 3px;
+			font-family:Lucida Fax;
+			font-weight:bold;
+			color:#000000;
+			font-size: 15px;
+			width : 100%;
+			text-align:center;
+			background-color : #4ab8d3;
+		}
+		.odd:hover
+		{
+			color : #981217;
+		}
+		.odd1
+		{
+			padding:7px 3px 7px 3px;
+			font-family:Lucida Fax;
+			font-weight:bold;
+			color:#000000;
+			font-size: 15px;
+			width : 100%;
+			text-align:center;
+			background-color : #4ab8d3;
+		}
+		.odd2
+		{
+			padding:7px 3px 7px 3px;
+			font-family:Lucida Fax;
+			color:#000000;
+			font-size: 15px;
+			width : 100%;
+			text-align:left;
+			background-color : #ffffff;
+		}
+		.odd1:hover
+		{
+			color : #981217;
+		}
+		
+		#bodyContainer 
+		{
+			border: 0px solid;
+			margin: 0px auto 10px auto;
+			text-align: left;
+			margin : 2% 5% 2% 5%;
+			width : 90%;
+		}
+
+		#menu_contain {
+			width: 21%;
+			background: #ffffff;
+		}
+		#main_contain 
+		{
+			width: 56%;
+			background: #ffffff;
+			margin-right : 0%;
+		}
+		#right_contain 
+		{
+			width: 20%;
+			background: #ffffff;
+			height : 360px;
+		}
+		#bodyContainer, #menu_contain, #main_contain, #right_contain 
+		{
+			display: inline-block;
+			vertical-align: top;
+		}
+		#bodyContainer, #menu_contain, #main_contain, #right_contain 
+		{
+			display: inline !ie7;
+			margin: 0 2px !ie7;
+		}
+		.header_image
+		{
+			width : 90%;
+			height: 300px;
+			border : 0px solid black;
+			background-size: 100% 100%;
+			margin: 2% 5% 1% 5%;
+		}
+		.title_name
+		{
+			font-family : new time roman;
+			padding:5px 0px 0px 0px;
+			font-size: 26px;
+			color: #3288a8;
+			text-align : left;
+			font-weight	:  100;
+			border : 0px solid black;
+            margin: 2% 5% 0% 5%;
+		}
+		.title_des
+		{
+			font-family : new time roman;
+			padding:2px 0px 5px 0px;
+			font-size: 20px;
+			color: #3288a8;
+			text-align : left;
+			font-weight	:  600;
+			border : 0px solid black;
+			margin-left : 5%;
+		}
+		.item
+		{
+			padding:0px 0px 10px 0px;
+		}
+		.footer
+		{
+			height : 300px;
+		}
