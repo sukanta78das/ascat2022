@@ -1,219 +1,216 @@
+<!DOCTYPE html>
 <html>
 <title>Welcome to ASCAT 2022</title>
 	<head>
-	<!--------External css--------->
-		<link type="text/css" media="screen" href="main.css" rel="stylesheet"/>
-	<!--------External css--------->
-	<!--------JavaScript--------->
-	<script type = "text/javascript">
-			var images = [], x = 0;
-			images[0] = "1.jpg";
-			images[1] = "2.jpg";
-			images[2] = "3.jpg";
-			images[3] = "4.jpg";
-			images[4] = "5.jpg";
-		function displayNextImage()
-		{
-			x = x + 1;
-			if(x >= images.length)
-			{
-				x = 0;
-			}
-			document.getElementById("img").src = images[x]; 
-		} 
-		function startTimer() 
-		{
-              setInterval(displayNextImage, 3000);
-        }
-      </script>
-	  <!--------JavaScript--------->
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!--------LINK--------->
+			<link type="text/css" media="screen" href="css_temp.css" rel="stylesheet"/>
+		<!--------LINK--------->
 	</head>
-    <body onload="startTimer()">
-
+    <body>
+        <!--------Contain Tag--------->
         <div class="title_name">First Asian Symposium on Cellular Automata Technology (ASCAT 2022)</div></br>
         <div class="title_des">
-            Indian Institute of Engineering Science and Technology, Shibpur </br> March 03-05, 2022
+            <!--Indian Institute of Engineering Science and Technology, Shibpur </br> -->
+            March 03-05, 2022 (Online)</br></br>
         </div>
-        <div class="ContactInfo" style="padding-top:10px;">
-            <marquee onmouseover="this.stop()" onmouseout="this.start()"><font class="font_style"> <i class="fa fa-phone"></i> For any queries, please E-mail to <b>sukanta@it.iiests.ac.in</b> &nbsp or &nbsp <b>biplab@cs.iiests.ac.in</b> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp <b>Submission link :</b> <a href="https://easychair.org/conferences/?conf=ascat2022"><font color="blue">ASCAT 2022 </li>(click here)</font></marquee>
-        </div>
-        <div>
-            <img class="header_image" id="img" src="4.jpg">
-        </div>
-        <div id="bodyContainer">
-            <div id="menu_contain">
-                <table class="menu" border="0" width="100%">
-                    <tr><td class="odd"><a href="index.html">Home</a></td></tr>
-                    <tr><td class="odd"><a href="call-for-papers.html">Call for Papers</td></a></tr>
-                    <tr><td class="odd"><a href="submission.html">Submission</td></a></tr>
-                    <tr><td class="odd"><a href="program.html">Program</td></a></tr>
-                    <tr><td class="odd"><a href="accepted-papers.html">Accepted Papers</td></a></tr>
-                    <tr><td class="odd"><a href="bpaper.html">Best Paper Awards</td></a></tr>
+        <div class="contain">
 
-                    <tr><td class="odd"><a href="committee.html">Committee</td></a></tr>
-                    <tr><td class="odd"><a href="registration.html">Registration</td></a></tr>
-                    <tr><td class="odd"><a href="venue.html">Venue</td></a></tr>
-
-                </table>
-            </div>
-            <div id="main_contain">
-                <left><font size="6"><b>Aims and Scope of the Conference</b></font></left> </br> </br>
-                <p style="text-align:justify">
-                    Cellular automata (CAs), one of the most important models of natural computing, are a paradigm of fine-grained parallel computation which have been explored to understand complex systems by developing their model at the microscopic level. Since their inception in the 1950s, CAs have attracted the attention of several researchers over various backgrounds and fields for modeling different physical, natural as well as real-life phenomena. In the last 30 years, the world has seen their immense potential in developing the cutting edge technologies. </br></br>
-
-                <p style="text-align:justify">
-                    Technology refers to the collection of techniques, methods or processes used to provide some services or solutions to problems, or in the accomplishment of an objective, such as scientific invigilation. The CAs have been historically used as a method for simulating biological and physical systems, and utilized to theoretically study such systems. Since late 1980s, the CAs have been increasingly receiving their popularity as technology in the present era of VLSI, due to their simplicity, modularity and cascadability. For the path-breaking developments of technology, however, proper theoretical foundation is mandatory. </br></br>
-                    In this backdrop, this conference aims to promote fundamental research on cellular automata theory, as well as cellular automata based unconventional design approaches in state-of-the art technological solutions for different emergent areas and challenges. It also focuses on international collaboration between Computer Scientists, Mathematicians and Technologists of Asia and the other parts of the world. It can popularize research on unconventional computing among the academicians, scientists and engineers of Asian countries.  </br></br>
-
-                    </br></br>
-                   
-                    <left><font size="6"><b>Topics</b></font></left> </br>
-                <p>
-                    The scope of the conference includes all the topics related to theory and applications of cellular automata. In particular, the topics of interest include (but is not limited to) the following: </br></br>
-                    <table width="100%" border="0">
-                        <tr>
-                            <td>
-                                <b> A. Algebraic and Theoretical aspects of CA </b>
-                                <ul>
-                                    <li>Algorithmic and Complexity issues in Cellular Automata </li>
-                                    <li>Formal Language Processing</li>
-                                    <li>Cellular Automata and Logic </li>
-                                    <li>Randomness </li>
-                                    <li>Reversibility and Cycle structure</li>
-                                    <li>Algebraic properties of Cellular Automata and Discrete Systems </li>
-                                    <li>Characterization tools for Cellular Automata </li>
-                                    <li>Conservation Laws and Cellular Automata</li>
-                                </ul>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <b>B. Cellular Automata Models and Computation</b>
-                                <ul>
-                                    <li>Traffic models and Crowd dynamics</li>
-                                    <li>Models for Distributed and Parallel Systems </li>
-                                    <li>Lattice Gas and Lattice Boltzmann model</li>
-                                    <li>Environmental, Social and Economical Modeling and Simulation</li>
-                                    <li>Natural Computing</li>
-                                    <li>Reversible and Quantum Computing </li>
-                                    <li>Cellular Automata Architecture for Computation </li>
-                                    <li>Cellular Automata for Computing-in-Memory Architecture</li>
-                                    <li>Integration of CA and Agent-based modeling</li>
-
-
-                                </ul>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <b>C. Non-uniformity in Cellular Automata</b>
-                                <ul>
-                                    <li>Non-uniform or Hybrid CA </li>
-                                    <li>Asynchronous Cellular Automata </li>
-                                    <li>Network Automata  </li>
-
-                                </ul>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <b>D. Cellular Automata, Hardware Design and Security</b>
-                                <ul>
-                                    <li>Circuit Design and Computer Architecture  </li>
-                                    <li>Quantum-dot Cellular Automata </li>
-                                    <li>Memristor Design </li>
-                                    <li>Security and Encryption </li>
-                                    <li>Cryptography </li>
-                                    <li>Secured Hardware Design </li>
-
-                                </ul>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <b>E. Cellular Automata, Machine Learning and Artificial Intelligence</b>
-                                <ul>
-                                    <li>Artificial Life </li>
-                                    <li>Pattern Recognition </li>
-                                    <li>Machine Learning </li>
-                                    <li>Bioinformatics </li>
-                                    <li>Image and Video Processing </li>
-
-                                </ul>
-                            </td>
-                        </tr>
-
-                    </table></br></br></br>
-
-                    <left><font size="6"><b>Important Dates:</b></font></left> </br>
-                    <ul>
-                        <li class="item">Paper Submission deadline: <b> Friday, October 22, 2021</b></li>
-                        <li class="item">Notification to Authors: <b> Friday, December 17, 2021</b></li>
-                        <li class="item">Deadline for camera-ready papers:<b> Tuesday, January 04, 2022</b></li>
-                        <li class="item">Conference:<b> March 03-05, 2022</b></li></br>
-                    </ul>
-                    </br><left><font size="6"><b>Paper Submission and Review Process</b></font></left> </br> </br>
-                    The papers must be submitted ONLINE using single column LNCS format through EasyChair Site. </br></br>
-
-                    <a href="https://easychair.org/conferences/?conf=ascat2022"><font color="blue">ASCAT 2022 through EasyChair (https://easychair.org/conferences/?conf=ascat2022)</font></a></br></br>
-<p style="text-align:justify">
-                    Please follow the author instructions for paper format and other important information before submitting the paper for review. The submitted paper must be complete in all respects and must include results, figures, references etc. Review process will be double blind. PC will reject papers without review if the submission is not in proper format. </br></br>
-
-                    Plagiarism of any form will lead to outright rejection of the paper. </br> </br> </br>
-
-                    <left><font size="6"><b>Publication</b></font></left> </br>
-                <p style="text-align:justify">
-                    Extended versions of a selected number of papers presented at the conference is planned to be published in a special issue of <a href="https://www.oldcitypublishing.com/journals/jca-home/"><font color="blue"> Journal of Cellular Automata </font></a></br></br>
+            <div class="ContactInfo" style="padding-top:10px;">
+                <marquee onmouseover="this.stop()" onmouseout="this.start()"><font class="font_style"> <i class="fa fa-phone"></i> For any queries, please E-mail to &nbsp <b>sukanta@it.iiests.ac.in</b> 
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp 
+		<b>Submission link :</b> <a href="https://easychair.org/conferences/?conf=ascat2022"><font color="red">ASCAT 2022 </li>(click here)</font></a>
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+		<a href="https://www.youtube.com/channel/UCZr5vFtk5cPF9kwBrU92r5Q/featured"><font color="white">Visit our YouTube Channel</font></a>	</marquee>
             </div>
 
-
-            <div id="right_contain">
-                <table class="menu" border="0" width="100%">
-                    <tr><td class="odd1">Latest News</td></tr>
-                    <tr>
-                        <td class="odd2">
-                            <ul>
-                                <li>Submission link : <a href="https://easychair.org/conferences/?conf=ascat2022"><font color="blue">ASCAT 2022 (click here)</font></a></br></br>
-                                <li> Early Bird Registration and Author registration will be available till : <b> 4th January, 2022 </b> </li>
-
-                            </ul>
-                        </td>
-                    </tr>
-                    <tr><td class="odd1">Important dates</td></tr>
-                    <tr>
-                        <td class="odd2">
-                            <ul>
-                                <li class="item">Paper Submission deadline: <b> Friday, October 22, 2021</b></li>
-                                <li class="item">Notification to Authors: <b> Friday, December 17, 2021</b></li>
-                                <li class="item">Deadline for camera-ready papers:<b> Tuesday, January 04, 2022</b></li>
-                                <li class="item">Conference:<b> March 03-05, 2022</b></li>
-                            </ul>
-                        </td>
-                    </tr>
-                    <tr><td class="odd1">Contacts</td></tr>
-                    <tr>
-                        <td class="odd2">
-                            <ul>
-                                <li>Dr. Sukanta Das, IT Dept, IIEST Shibpur <br> sukanta@it.iiests.ac.in</li> </br>
-                                <li>Dr. Biplab K Sikdar, CST Dept, IIEST Shibpur <br> biplab@cs.iiests.ac.in</li>
-
-                            </ul>
-                        </td>
-                    </tr>
-                    <tr><td class="odd1">Cellular Automata India Group</td></tr>
-                    <tr>
-                        <td class="odd2">
-                            <ul>
-                                <a href="https://www.youtube.com/channel/UCZr5vFtk5cPF9kwBrU92r5Q/featured"><font color="blue">Visit our YouTube Channel (click here)</font></a></br></br>
-
-                            </ul>
-                        </td>
-                    </tr>
-                    <tr><td class="odd1">Publisher's</td></tr>
-                    <tr><td align="center"><font size="4">To be announced</font></td></tr>
-                </table>
+            <div>
+                <img class="TitleImage" src="1.jpg" />
             </div>
-        </div>
-        <div class="footer">	</div>
-    </body>
-</html>
+
+            <div class="MenuTab" id="navbar">
+                <ul>
+                    <!-- <li><a class="active" href="index.html">Home</a></li> -->
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="call-for-papers.html">Call for Papers</a></li>
+                    <li><a href="submission.html">Submission</a></li>
+                    <li><a href="speaker.html">Keynote Speaker</a></li>
+                    <li><a href="committee.html">Committee</a></li>
+                    <li><a href="program.html">Program</a></li>
+                    <li><a href="registration.html">Registration</a></li>
+                    <li><a href="news.html">Latest News</a></li>
+
+
+
+                </ul>
+            </div>
+            <div>
+
+                <div id="main_contain">
+                        </br>
+					<p style="text-align:justify"><left><font size="6"><b>Aims and Scope of the Conference</b></font></left></p></br>
+                    <p style="text-align:justify">
+                        Cellular automata (CAs), one of the most important models of natural computing, are a paradigm of fine-grained parallel computation which have been explored to understand complex systems by developing their model at the microscopic level. Since their inception in the 1950s, CAs have attracted the attention of several researchers over various backgrounds and fields for modeling different physical, natural as well as real-life phenomena. In the last 30 years, the world has seen their immense potential in developing the cutting edge technologies. </br></br>
+
+                    <p style="text-align:justify">
+                        Technology refers to the collection of techniques, methods or processes used to provide some services or solutions to problems, or in the accomplishment of an objective, such as scientific invigilation. The CAs have been historically used as a method for simulating biological and physical systems, and utilized to theoretically study such systems. Since late 1980s, the CAs have been increasingly receiving their popularity as technology in the present era of VLSI, due to their simplicity, modularity and cascadability. For the path-breaking developments of technology, however, proper theoretical foundation is mandatory. </br></br>
+                        In this backdrop, this conference aims to promote fundamental research on cellular automata theory, as well as cellular automata based unconventional design approaches in state-of-the art technological solutions for different emergent areas and challenges. It also focuses on international collaboration between Computer Scientists, Mathematicians and Technologists of Asia and the other parts of the world. It can popularize research on unconventional computing among the academicians, scientists and engineers of Asian countries.  </br></br>
+
+                        </br>
+					<hr class="new5">
+					     </br>
+                     <p>   <left><font size="6"><b>Topics</b></font></left> </p>
+                    <p>
+                        The scope of the conference includes all the topics related to theory and applications of cellular automata. 
+                        In particular, the topics of interest include (but is not limited to) the following: </p></br></br>
+                      <div style="padding-left: 40px; padding-right: 40px;">
+					  <table width="100%" border="0" align="center">
+                                   <tr><td style="font-size:30px; font-weight:bold"> A. Algebraic and Theoretical aspects of CA </td></tr>
+										<tr><td></td></tr>
+										<tr><td></td></tr>
+                                        <tr><td>Algorithmic and Complexity issues in Cellular Automata </td></tr>
+                                        <tr><td>Formal Language Processing</td></tr>
+                                        <tr><td>Cellular Automata and Logic</td></tr>
+                                        <tr><td>Randomness</td></tr>
+                                        <tr><td>Reversibility and Cycle structure</td></tr>
+                                        <tr><td>Algebraic properties of Cellular Automata and Discrete Systems </td></tr>
+                                        <tr><td>Characterization tools for Cellular Automata</td></tr>
+                                        <tr><td>Conservation Laws and Cellular Automata</td></tr>
+										<tr><td></td></tr>
+										<tr><td></td></tr>
+                                    <tr><td style="font-size:30px; font-weight:bold">B. Cellular Automata Models and Computation</td></tr>
+										<tr><td></td></tr>
+										<tr><td></td></tr>
+                                        <tr><td>Traffic models and Crowd dynamics</td></tr>
+                                        <tr><td>Models for Distributed and Parallel Systems </td></tr>
+                                        <tr><td>Lattice Gas and Lattice Boltzmann model</td></tr>
+                                        <tr><td>Environmental, Social and Economical Modeling and Simulation</td></tr>
+                                        <tr><td>Natural Computing</td></tr>
+                                        <tr><td>Reversible and Quantum Computing </td></tr>
+                                        <tr><td>Cellular Automata Architecture for Computation </td></tr>
+                                        <tr><td>Cellular Automata for Computing-in-Memory Architecture</td></tr>
+                                        <tr><td>Integration of CA and Agent-based modeling</td></tr>
+										<tr><td></td></tr>
+										<tr><td></td></tr>
+                                    <tr><td style="font-size:30px; font-weight:bold">C. Non-uniformity in Cellular Automata</td></tr>
+										<tr><td></td></tr>
+										<tr><td></td></tr>
+                                        <tr><td>Non-uniform or Hybrid CA </td></tr>
+                                        <tr><td>Asynchronous Cellular Automata</td></tr>
+                                        <tr><td>Network Automata  </td></tr>
+										<tr><td></td></tr>
+										<tr><td></td></tr>
+									<tr><td style="font-size:30px; font-weight:bold">D. Cellular Automata, Hardware Design and Security</td></tr>
+										<tr><td></td></tr>
+										<tr><td></td></tr>
+                                        <tr><td>Circuit Design and Computer Architecture </td></tr>
+                                        <tr><td>Quantum-dot Cellular Automata </td></tr>
+                                        <tr><td>Memristor Design </td></tr>
+                                        <tr><td>Security and Encryption </td></tr>
+                                        <tr><td>Cryptography </td></tr>
+                                        <tr><td>Secured Hardware Design </td></tr>
+										<tr><td></td></tr>
+										<tr><td></td></tr>
+                                    <tr><td style="font-size:30px; font-weight:bold">E. Cellular Automata, Machine Learning and Artificial Intelligence</td></tr>
+										<tr><td></td></tr>
+										<tr><td></td></tr>
+                                        <tr><td>Artificial Life </td></tr>
+                                        <tr><td>Pattern Recognition</td></tr>
+                                        <tr><td>Machine Learning </td></tr>
+                                        <tr><td>Bioinformatics </td></tr>
+                                        <tr><td>Image and Video Processing </td></tr>
+                        </table>
+						</div></br></br></br>
+						<!--<div style="background-color:white; width=90%">-->
+						<hr class="new5">
+						<div style="padding-left: 40px; padding-right: 40px;">
+						<br><br>
+						<table class = "date" align="center" border="0" style="font-size:20px; padding:40">
+							<tr align="center">
+								<td colspan="3" style="font-size:30px; font-weight:bold">Important Dates</td>
+							</tr>
+							<tr>
+							<td></td>
+							<td></td>
+							</tr>
+							<tr>
+							<td></td>
+							<td></td>
+							</tr>
+							<tr>
+								<td>Paper Submission deadline</td>
+								<td>:</td>
+								<td><b>Friday, October 22, 2021</b></td>
+							</tr>
+							<tr>
+								<td>Notification to Authors</td>
+								<td>:</td>
+								<td><b>Friday, December 17, 2021</b></td>
+							</tr>
+							<tr>
+								<td>Deadline for camera-ready papers</td>
+								<td>:</td>
+								<td><b> Tuesday, January 04, 2022</b></td>
+							</tr>
+							<tr>
+								<td>Conference</td>
+								<td>:</td>
+								<td><b> March 03-05, 2022</b></td>
+							</tr>
+						</table>
+						<br><br><br>
+						</div>
+                        <hr class="new5">
+                        <p style="text-align:justify"></br><left><font size="6"><b>Paper Submission and Review Process</b></font></left> </br> </br></p>
+                        <p style="text-align:justify">The papers must be submitted ONLINE using single column Springer format through EasyChair Site. </br></br></p>
+                        <p style="text-align:justify"><a href="https://easychair.org/conferences/?conf=ascat2022"><font color="blue">ASCAT 2022 through EasyChair (https://easychair.org/conferences/?conf=ascat2022)</font></a></br></br></p>
+                        <p style="text-align:justify">Please follow the author instructions for paper format and other important information before submitting the paper for review. The submitted paper must be complete in all respects and must include results, figures, references etc. Review process will be double blind. PC will reject papers without review if the submission is not in proper format. </br></br></p>
+                        <p style="text-align:justify">Plagiarism of any form will lead to outright rejection of the paper. </p>
+						</br> <hr class="new5"> </br>
+
+			<p>  <left><font size="6"><b>Proceedings</b></font></left></p>
+                <p style="text-align:justify">
+                    ASCAT 2022 proceedings would be published by the <b>Springer</b> and will be made digitally available in Springer subject to fulfilling 
+		necessary conference registration and presentation formalities. </br></br> </br>
+
+                    <left><font size="6"><b>Special Issue</b></font></left> </br>
+                <p style="text-align:justify">
+                    Extended versions of a selected number of papers presented at the conference is planned to be published in a special issue of <a href="https://www.oldcitypublishing.com/journals/jca-home/"><font color="blue"> Journal of Cellular Automata </font></a>
+                       
+		<table width="70%">
+				<tr>
+					<td align="center" width="50%"><img id="img" width="80%" height=20%" src="Springer_logo.png"></td>
+					<td align="center" width="50%"><img id="img" width="70%" height=35%" src="LNCS-Logo.jpg"></td>
+				</tr>
+			</table> 
+
+			  </div> 
+
+
+
+
+
+
+
+
+
+
+
+
+                <!----------Contain Tag------->
+                <script>
+                    window.onscroll = function() {myFunction()};
+                    var navbar = document.getElementById("navbar");
+                    var sticky = navbar.offsetTop;
+                    function myFunction()
+                    {
+                    if (window.pageYOffset >= sticky)
+                    {
+                    navbar.classList.add("sticky")
+                    }
+                    else
+                    {
+                    navbar.classList.remove("sticky");
+
+
