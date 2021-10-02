@@ -1,0 +1,139 @@
+.contain
+{
+	margin-left : 5%;
+	margin-right : 5%;
+	margin-top : -1%;
+	width : 90%;
+	/*height : 70cm;*/
+	background-color : #DCDCDC;
+    font-size:20px;
+}
+.TitleImage
+{
+	width : 100%;
+	height: 350px;
+	border-color: #00ff00;
+}
+.font_style
+{
+	color: #ffffff;
+}
+.ContactInfo
+{
+	font-family: "Lato", sans-serif;
+	font-size: 15;
+	text-align: center;
+	margin-top: -5px;
+	background-color: #333333;
+	height: 30px;
+        margin: auto;
+	width: 100%;
+	position: relative;
+}
+.MenuTab
+{
+	font-family: "Lato", sans-serif;
+	background-color: #00fff0;
+	text-align: center;
+	margin-top: 0%;
+	width: 100%;
+	height: 20%;
+	margin: auto;
+	margin-top : -1%;
+} 
+.sticky 
+{
+  position: fixed;
+  top: 0;
+  width: 69.4%;
+  margin-top : 0%;
+  font-family: "Lato", sans-serif;
+  background-color: #00fff0;
+  text-align: center;
+}
+ul
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+	width: 100%;
+}
+li
+{
+    float: left;
+	font-size: 18px;
+	font-weight: 600;
+}
+li a 
+{
+    display: inline-block;
+    color: #ffffff;
+    text-align: center;
+    padding: 14px 34px;
+    text-decoration: none;
+}
+li a:hover 
+{
+    background-color: #111111;
+}
+.active 
+{
+    background-color: #111111;
+}
+.end
+{
+	margin-top : -1%;
+	width : 70%;
+	background-color : #DCDCDC;
+	margin-left : 15%;
+	margin-right : 15%;
+}
+.TitleImage1
+{
+	width : 100%;
+	height: 100%;
+	border-color: #00ff00;
+}
+.dot 
+{
+  height: 25px;
+  width: 25px;
+  background-color: #DAA520;
+  border-radius: 50%;
+  display: inline-block;
+}
+P{
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.title_name {
+    font-family: new time roman;
+    padding: 5px 0px 0px 0px;
+    font-size: 36px;
+    color: #3288a8;
+    text-align: center;
+    font-weight: 100;
+    border: 0px solid black;
+    margin: 2% 5% 0% 5%;
+}
+.title_des {
+    font-family: new time roman;
+    padding: 2px 0px 5px 0px;
+    font-size: 30px;
+    color: #3288a8;
+    text-align: center;
+    font-weight: 600;
+    border: 0px solid black;
+    margin-left: 5%;
+}
+.topic {
+	font-family: new time roman;
+    padding: 2px 0px 5px 0px;
+    font-size: 30px;
+}
+hr.new5 {
+  border: 2px solid white;
+  border-radius: 5px;
+}

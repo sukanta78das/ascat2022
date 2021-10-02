@@ -1,186 +1,197 @@
+<!DOCTYPE html>
 <html>
 <title>Welcome to ASCAT 2022</title>
 	<head>
-	<!--------External css--------->
-		<link type="text/css" media="screen" href="main.css" rel="stylesheet"/>
-	<!--------External css--------->
-	<!--------JavaScript--------->
-	<script type = "text/javascript">
-			var images = [], x = 0;
-			images[0] = "1.jpg";
-			images[1] = "2.jpg";
-			images[2] = "3.jpg";
-			images[3] = "4.jpg";
-			images[4] = "5.jpg";
-		function displayNextImage()
-		{
-			x = x + 1;
-			if(x >= images.length)
-			{
-				x = 0;
-			}
-			document.getElementById("img").src = images[x]; 
-		} 
-		function startTimer() 
-		{
-              setInterval(displayNextImage, 3000);
-        }
-      </script>
-	  <!--------JavaScript--------->
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!--------LINK--------->
+			<link type="text/css" media="screen" href="css_temp.css" rel="stylesheet"/>
+		<!--------LINK--------->
 	</head>
-    <body onload="startTimer()">
-
+    <body>
+        <!--------Contain Tag--------->
         <div class="title_name">First Asian Symposium on Cellular Automata Technology (ASCAT 2022)</div></br>
         <div class="title_des">
-            Indian Institute of Engineering Science and Technology, Shibpur </br> March 03-05, 2022
+            <!--Indian Institute of Engineering Science and Technology, Shibpur </br> -->
+            March 03-05, 2022 (Online)</br></br>
         </div>
-        <div class="ContactInfo" style="padding-top:10px;">
-            <marquee onmouseover="this.stop()" onmouseout="this.start()"><font class="font_style"> <i class="fa fa-phone"></i> For any queries, please E-mail to <b>sukanta@it.iiests.ac.in</b> &nbsp or &nbsp <b>biplab@cs.iiests.ac.in</b> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp <b>Submission link :</b> <a href="https://easychair.org/conferences/?conf=ascat2022"><font color="blue">ASCAT 2022 </li>(click here)</font></marquee>
-        </div>
-        <div>
-            <img class="header_image" id="img" src="4.jpg">
-        </div>
-        <div id="bodyContainer">
-            <div id="menu_contain">
-                <table class="menu" border="0" width="100%">
-                    <tr><td class="odd"><a href="index.html">Home</a></td></tr>
-                    <tr><td class="odd"><a href="call-for-papers.html">Call for Papers</td></a></tr>
-                    <tr><td class="odd"><a href="submission.html">Submission</td></a></tr>
-                    <tr><td class="odd"><a href="program.html">Program</td></a></tr>
-                    <tr><td class="odd"><a href="accepted-papers.html">Accepted Papers</td></a></tr>
-                    <tr><td class="odd"><a href="bpaper.html">Best Paper Awards</td></a></tr>
+        <div class="contain">
 
-                    <tr><td class="odd"><a href="committee.html">Committee</td></a></tr>
-                    <tr><td class="odd"><a href="registration.html">Registration</td></a></tr>
-                    <tr><td class="odd"><a href="venue.html">Venue</td></a></tr>
-
-                </table>
+            <div class="ContactInfo" style="padding-top:10px;">
+                <marquee onmouseover="this.stop()" onmouseout="this.start()"><font class="font_style"> <i class="fa fa-phone"></i> For any queries, please E-mail to &nbsp <b>sukanta@it.iiests.ac.in</b> 
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp 
+		<b>Submission link :</b> <a href="https://easychair.org/conferences/?conf=ascat2022"><font color="red">ASCAT 2022 </li>(click here)</font></a>
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+		<a href="https://www.youtube.com/channel/UCZr5vFtk5cPF9kwBrU92r5Q/featured"><font color="white">Visit our YouTube Channel</font></a>	</marquee>
             </div>
-            <div id="main_contain">
-                <center><font size="6" weight="bold">COMMITTEES</font></center></br> </br>
-                <left><font size="4"><b>Patron:</b></font></left> </br>
-                <ul>
-                    <li>Dipanwita Roy Chowdhury (Indian Institute of Technology, Kharagpur, India)</li> </br>
 
-                </ul>
-
-
-                <left><font size="4"><b>General co-chairs:</b></font></left> </br>
-                <ul>
-                    <li>Biplab K Sikdar (Indian Institute of Engineering Science and Technology, Shibpur, India)</li> </br>
-                    <li>Jarkko Kari (University of Turku, Finland)</li> </br>
-                </ul>
-
-                <left><font size="4"><b>Programme co-chairs:</b></font></left> </br>
-                <ul>
-                    <li>Sukanta Das (Indian Institute of Engineering Science and Technology, Shibpur, India)</li> </br>
-                    <li>Genaro Juarez Martinez (National Polytechnic Institute, Mexico City, Mexico)</li> </br>
-                </ul>
-
-
-                <left><font size="4"><b>Program committee:</b></font></left> </br>
-                <ul>
-                    <li>Dipanwita Roy Chowdhury (Indian Institute of Technology, Kharagpur, India)</li> </br>
-                    <li>Biplab K Sikdar (Indian Institute of Engineering Science and Technology, Shibpur, India)</li> </br>
-                    <li>Kenichi Morita (Hiroshima University, Japan) </li> </br>
-                    <li>Jarkko Kari (University of Turku, Finland) </li> </br>
-                    <li>Mihir K Chakraborty (School of Cognitive Science, Jadavpur University, Kolkata)</li> </br>
-                    <li>B R Shankar (National Institute of Technology Karnataka, Surathkal, India)</li> </br>
-                    <li>N P Gopalan (National Institute of Technology Tiruchirappalli, India)</li> </br>
-                    <li>R Ramanujam (The Institute of Mathematical Sciences, India)</li> </br>
-                    <li>Andrew Adamatzky (University of the West of England, UK) </li> </br>
-                    <li>Ebrahim Patel (London Interdisciplinary School, UK)</li> </br>
-                    <li>Eric Goles (Universidad Adolfo Ib·Òez, Chile) </li> </br>
-                    <li>Salvatore Di Gregorio (University of Calabria, Italy)</li> </br>
-                    <li>Andreas Malcher (Universit‰t Gieﬂen, Germany)</li> </br>
-                    <li>Pabitra Pal Chaudhuri (Indian Statistical Institute, Kolkata, India)</li> </br>
-                    <li>K. Ramachandra Rao (Indian Institute of Technology, Delhi, India) </li> </br>
-                    <li>Debashish Chowdhury (Indian Institute of Technology, Kanpur, India) </li> </br>
-                    <li>Teijiro Isokawa (University of Hyogo, Japan) </li> </br>
-                    <li>Chih-Hung Chang (National Chiao Tung University, Taiwan)</li> </br>
-                    <li>Sudhakar Sahoo (Institute of Mathematics and Applications, Bhubaneswar, India) </li> </br>
-                    <li>Mamata Dalui (National Institute of Technology, Durgapur, India) </li> </br>
-                    <li>Nazma Naskar (Kalinga Institute of Industrial Technology University, India) </li> </br>
-                    <li>Biswanath Sethi (Indira Gandhi Institute of Technology, Odisha, India)</li> </br>
-                    <li>Raju Hazari (National Institute of Technology, Calicut, India)</li> </br>
-                    <li>Jimmy Jose (National Institute of Technology, Calicut, India)</li> </br>
-                    <li>Kamalika Bhattacharjee (National Institute of Technology, Tiruchirappalli, India) </li> </br>
-                    <li>Hiroshi Umeo (University of Osaka Electro-Communication, Japan)</li> </br>
-                    <li>Hiep Xuan Huynh (College of Information and Communication Technology - Can Tho University, Vietnam)</li> </br>
-                    <li>Samira El Yacoubi (University of Perpignan, France)</li> </br>
-                    <li>Nazim FatËs (Inria-Loria, France)</li> </br>
-                    <li>Anna Lawniczak (Guelph University, Canada) </li> </br>
-                    <li>Stefano Nichele (Oslo Metropolitan University, Norway</li> </br>
-                    <li>Niloy Ganguly (Indian Institute of Technology, Kharagpur, India) </li> </br>
-                    <li>Pradipta Maji (Indian Statistical Institute, Kolkata, India) </li> </br>
-                    <li>Genaro Juarez Martinez (National Polytechnic Institute, Mexico City, Mexico)</li> </br>
-                    <li>Sukanta Das (Indian Institute of Engineering Science and Technology, Shibpur, India)</li> </br>
-
-                </ul>
-
-
-                <left><font size="4"><b>Organizing committee:</b></font></left> </br>
-                <ul>
-                    <li>Biplab K. Sikdar (Indian Institute of Engineering Science and Technology, Shibpur, India)</li> </br>
-                    <li>Abhik Mukherjee (Indian Institute of Engineering Science and Technology, Shibpur, India)</li> </br>
-                    <li>Amit Roy Chowdhury (Indian Institute of Engineering Science and Technology, Shibpur, India)</li> </br>
-                    <li>Chandan Giri (Indian Institute of Engineering Science and Technology, Shibpur, India)</li> </br>
-                    <li>Surajit Roy (Indian Institute of Engineering Science and Technology, Shibpur, India  </li> </br>
-                    <li>Ashish Layek (Indian Institute of Engineering Science and Technology, Shibpur, India)</li> </br>
-                    <li>Kamalika Bhattacharjee (National Institute of Technology, Tiruchirappalli, India) </li> </br>
-                    <li>Souvik Roy (Indian Institute of Engineering Science and Technology, Shibpur, India) </li> </br>
-                    <li>Sumit Adak (Indian Institute of Engineering Science and Technology, Shibpur, India)</li> </br>
-                    <li>Sukanta Das (Indian Institute of Engineering Science and Technology, Shibpur, India)</li> </br>
-
-                </ul>
-
+            <div>
+                <img class="TitleImage" src="1.jpg" />
             </div>
-            <div id="right_contain">
-                <table class="menu" border="0" width="100%">
-                    <tr><td class="odd1">Latest News</td></tr>
-                    <tr>
-                        <td class="odd2">
-                            <ul>
-                                <li>Submission link : <a href="https://easychair.org/conferences/?conf=ascat2022"><font color="blue">ASCAT 2022 (click here)</font></a></br></br>
-                                <li> Early Bird Registration and Author registration will be available till : <b> 4th January, 2022 </b> </li>
-                            </ul>
-                        </td>
-                    </tr>
-                    <tr><td class="odd1">Important dates</td></tr>
-                    <tr>
-                        <td class="odd2">
-                            <ul>
-                                <li class="item">Paper Submission deadline: <b> Friday, October 22, 2021</b></li>
-                                <li class="item">Notification to Authors: <b> Friday, December 17, 2021</b></li>
-                                <li class="item">Deadline for camera-ready papers:<b> Tuesday, January 04, 2022</b></li>
-                                <li class="item">Conference:<b> March 03-05, 2022</b></li>
-                            </ul>
-                        </td>
-                    </tr>
-                    <tr><td class="odd1">Contacts</td></tr>
-                    <tr>
-                        <td class="odd2">
-                            <ul>
-                                <li>Dr. Sukanta Das, IT Dept, IIEST Shibpur <br> sukanta@it.iiests.ac.in</li> </br>
-                                <li>Dr. Biplab K Sikdar, CST Dept, IIEST Shibpur <br> biplab@cs.iiests.ac.in</li>
 
-                            </ul>
-                        </td>
-                    </tr>
-                    <tr><td class="odd1">Cellular Automata India Group</td></tr>
-                    <tr>
-                        <td class="odd2">
-                            <ul>
-                                <a href="https://www.youtube.com/channel/UCZr5vFtk5cPF9kwBrU92r5Q/featured"><font color="blue">Visit our YouTube Channel (click here)</font></a></br></br>
+            <div class="MenuTab" id="navbar">
+                <ul>
+                    <!-- <li><a class="active" href="index.html">Home</a></li> -->
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="call-for-papers.html">Call for Papers</a></li>
+                    <li><a href="submission.html">Submission</a></li>
+                    <li><a href="speaker.html">Keynote Speaker</a></li>
+                    <li><a href="committee.html">Committee</a></li>
+                    <li><a href="program.html">Program</a></li>
+                    <li><a href="registration.html">Registration</a></li>
+                    <li><a href="news.html">Latest News</a></li>
 
-                            </ul>
-                        </td>
-                    </tr>
-                    <tr><td class="odd1">Publisher's</td></tr>
-                    <tr><td align="center"><font size="4">To be announced</font></td></tr>
-                </table>
+
+
+                </ul>
             </div>
-        </div>
-        <div class="footer">	</div>
-    </body>
-</html>
+            <div>
+                </br></br>
+
+                <div id="main_contain">
+                    <p><center><font size="10px" weight="bold">COMMITTEES</font></center></p></br>
+                    <hr class="new5">
+					<p><left><font size="8px"><b>Patron:</b></font></left></p> 
+                    <p>Dipanwita Roy Chowdhury (Indian Institute of Technology, Kharagpur, India)</p> 
+					<hr class="new5">
+                    <p><left><font size="8px"><b>General co-chairs:</b></font></left> </p>
+                    <p>
+                        Biplab K Sikdar (Indian Institute of Engineering Science and Technology, Shibpur, India)</br>
+                        Jarkko Kari (University of Turku, Finland)</li> </br>
+                    </p>
+					<hr class="new5">
+                    <p><left><font size="8px"><b>Programme co-chairs:</b></font></left></p> 
+                    <p>
+                        Sukanta Das (Indian Institute of Engineering Science and Technology, Shibpur, India) </br>
+                        Genaro Juarez Martinez (National Polytechnic Institute, Mexico City, Mexico) </br>
+                    </p>
+					<hr class="new5">
+                    <p><left><font size="8px"><b>Program committee:</b></font></left> </p>
+					<p><table border="1" align="center", width="95%">
+						<tr>
+							<td>Dipanwita Roy Chowdhury (Indian Institute of Technology, Kharagpur, India)</td>
+							<td>Biplab K Sikdar (Indian Institute of Engineering Science and Technology, Shibpur, India)</td>
+						</tr>
+						<tr>
+							<td>Kenichi Morita (Hiroshima University, Japan)</td>
+							<td>Biplab K Sikdar (Indian Institute of Engineering Science and Technology, Shibpur, India)</td>
+						</tr>
+						<tr>
+							<td>Mihir K Chakraborty (School of Cognitive Science, Jadavpur University, Kolkata)</td>
+							<td>B R Shankar (National Institute of Technology Karnataka, Surathkal, India)</td>
+						</tr>
+						<tr>
+							<td>N P Gopalan (National Institute of Technology Tiruchirappalli, India)</td>
+							<td>R Ramanujam (The Institute of Mathematical Sciences, India)</td>
+						</tr>
+						<tr>
+							<td>Andrew Adamatzky (University of the West of England, UK)</td>
+							<td>Ebrahim Patel (London Interdisciplinary School, UK)</td>
+						</tr>
+						<tr>
+							<td>Eric Goles (Universidad Adolfo Ib√°√±ez, Chile)</td>
+							<td>Salvatore Di Gregorio (University of Calabria, Italy)</td>
+						</tr>
+						<tr>
+							<td>Andreas Malcher (Universit√§t Gie√üen, Germany)</td>
+							<td>Pabitra Pal Chaudhuri (Indian Statistical Institute, Kolkata, India)</td>
+						</tr>
+						<tr>
+							<td>K. Ramachandra Rao (Indian Institute of Technology, Delhi, India)</td>
+							<td>Debashish Chowdhury (Indian Institute of Technology, Kanpur, India)</td>
+						</tr>
+						<tr>
+							<td>Teijiro Isokawa (University of Hyogo, Japan)</td>
+							<td>Chih-Hung Chang (National Chiao Tung University, Taiwan)</td>
+						</tr>
+						<tr>
+							<td>Sudhakar Sahoo (Institute of Mathematics and Applications, Bhubaneswar, India)</td>
+							<td>Mamata Dalui (National Institute of Technology, Durgapur, India)</td>
+						</tr>
+						<tr>
+							<td>Nazma Naskar (Kalinga Institute of Industrial Technology University, India)</td>
+							<td>Biswanath Sethi (Indira Gandhi Institute of Technology, Odisha, India)</td>
+						</tr>
+						<tr>
+							<td>Raju Hazari (National Institute of Technology, Calicut, India)</td>
+							<td>Jimmy Jose (National Institute of Technology, Calicut, India)</td>
+						</tr>
+						<tr>
+							<td>Kamalika Bhattacharjee (National Institute of Technology, Tiruchirappalli, India)</td>
+							<td>Hiroshi Umeo (University of Osaka Electro-Communication, Japan)</td>
+						</tr>
+						<tr>
+							<td>Hiep Xuan Huynh (College of Information and Communication Technology - Can Tho University, Vietnam)</td>
+							<td>Samira El Yacoubi (University of Perpignan, France)</td>
+						</tr>
+						<tr>
+							<td>Nazim Fat√®s (Inria-Loria, France)</td>
+							<td>Anna Lawniczak (Guelph University, Canada)</td>
+						</tr>
+						<tr>
+							<td>Stefano Nichele (Oslo Metropolitan University, Norway)</td>
+							<td>Niloy Ganguly (Indian Institute of Technology, Kharagpur, India)</td>
+						</tr>
+						<tr>
+							<td>Pradipta Maji (Indian Statistical Institute, Kolkata, India)</td>
+							<td>Genaro Juarez Martinez (National Polytechnic Institute, Mexico City, Mexico)</td>
+						</tr>
+						<tr>
+							<td>Sukanta Das (Indian Institute of Engineering Science and Technology, Shibpur, India)</td>
+						</tr>
+					</table>
+					</p>
+					<hr class="new5">
+                    <p><left><font size="8px"><b>Organizing committee:</b></font></left> </p>
+                    <p><table border="1" align="center", width="95%">
+						<tr>
+							<td>Biplab K. Sikdar (Indian Institute of Engineering Science and Technology, Shibpur, India)</td>
+							<td>Abhik Mukherjee (Indian Institute of Engineering Science and Technology, Shibpur, India)</td>
+						</tr>
+						<tr>
+							<td>Amit Roy Chowdhury (Indian Institute of Engineering Science and Technology, Shibpur, India)</td>
+							<td>Chandan Giri (Indian Institute of Engineering Science and Technology, Shibpur, India)</td>
+						</tr>
+						<tr>
+							<td>Surajit Roy (Indian Institute of Engineering Science and Technology, Shibpur, India)</td>
+							<td>Ashish Layek (Indian Institute of Engineering Science and Technology, Shibpur, India)</td>
+						</tr>
+						<tr>
+							<td>Kamalika Bhattacharjee (National Institute of Technology, Tiruchirappalli, India)</td>
+							<td>Souvik Roy (Indian Institute of Engineering Science and Technology, Shibpur, India)</td>
+						</tr>
+						<tr>
+							<td>Sumit Adak (Indian Institute of Engineering Science and Technology, Shibpur, India)</td>
+							<td>Sukanta Das (Indian Institute of Engineering Science and Technology, Shibpur, India)</td>
+						</tr>
+					</table></p>
+					</br></br>
+
+                </div>
+
+
+
+
+
+
+
+
+
+
+
+                <!----------Contain Tag------->
+                <script>
+                    window.onscroll = function() {myFunction()};
+                    var navbar = document.getElementById("navbar");
+                    var sticky = navbar.offsetTop;
+                    function myFunction()
+                    {
+                    if (window.pageYOffset >= sticky)
+                    {
+                    navbar.classList.add("sticky")
+                    }
+                    else
+                    {
+                    navbar.classList.remove("sticky");
+
+
