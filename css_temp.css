@@ -5,14 +5,17 @@
 	margin-top : -1%;
 	width : 90%;
 	/*height : 70cm;*/
-	background-color : #DCDCDC;
-    font-size:20px;
+	/* background-color : #DCDCDC; */
+    font-size:18px;
+	font-family: "Roboto";
+	padding-right: "20px";
 }
 .TitleImage
 {
 	width : 100%;
-	height: 350px;
+	height: 340px;
 	border-color: #00ff00;
+	margin: 0.2% 0% 1% 0%;
 }
 .font_style
 {
@@ -32,7 +35,7 @@
 }
 .MenuTab
 {
-	font-family: "Lato", sans-serif;
+	font-family: "Roboto", "Lato", sans-serif;
 	background-color: #00fff0;
 	text-align: center;
 	margin-top: 0%;
@@ -51,7 +54,7 @@
   background-color: #00fff0;
   text-align: center;
 }
-ul
+.ul
 {
     list-style-type: none;
     margin: 0;
@@ -60,13 +63,13 @@ ul
     background-color: #333333;
 	width: 100%;
 }
-li
+.li
 {
     float: left;
 	font-size: 18px;
-	font-weight: 600;
+	/* font-weight: 600; */
 }
-li a 
+.li a 
 {
     display: inline-block;
     color: #ffffff;
@@ -74,11 +77,7 @@ li a
     padding: 14px 34px;
     text-decoration: none;
 }
-li a:hover 
-{
-    background-color: #111111;
-}
-.active 
+.li a:hover 
 {
     background-color: #111111;
 }
@@ -95,6 +94,7 @@ li a:hover
 	width : 100%;
 	height: 100%;
 	border-color: #00ff00;
+	margin-top : 1%;
 }
 .dot 
 {
@@ -114,7 +114,7 @@ P{
     font-size: 36px;
     color: #3288a8;
     text-align: center;
-    font-weight: 100;
+    font-weight: 600;
     border: 0px solid black;
     margin: 2% 5% 0% 5%;
 }
@@ -136,4 +136,103 @@ P{
 hr.new5 {
   border: 2px solid white;
   border-radius: 5px;
+}
+hr.new6 {
+  border: 2px solid white;
+  border-radius: 5px;
+  width: 125%;
+}
+.odd1
+{
+	padding:7px 3px 7px 3px;
+	font-family:Lucida Fax;
+	font-weight:bold;
+	color:#ffffff;
+	font-size: 15px;
+	width : 100%;
+	text-align:center;
+	background-color : #333333;
+}
+.odd2
+{
+	padding:7px 3px 7px 3px;
+	font-family:Lucida Fax;
+	color:#000000;
+	font-size: 15px;
+	width : 100%;
+	text-align:center;
+	background-color : #ffffff;
+}
+.item
+{
+	padding:0px 0px 1px 0px;
+	color:#000000;
+	background-color : #ffffff;
+	text-align: center;
+	font-family:Lucida Fax;
+	font-size: 15px;
+	font-weight: bold;
+}
+.item1
+{
+	padding:0px 0px 1px 0px;
+	color:#ff0000;
+	background-color : #ffffff;
+	text-align: center;
+	font-family:Lucida Fax;
+	font-size: 15px;
+	font-weight: bold;
+}
+
+.institute { color: rgb(129,129,129); }
+
+.menutitle
+{ 
+	float: left;
+	font-family: "Lato", "Quicksand";
+	font-size: 26px;
+	color: yellow;
+	padding: 10px 10px 0 20px;
+	font-weight: 100;
+}
+
+/* Image slide show */
+
+* {box-sizing: border-box;}
+body {font-family: Verdana, sans-serif;}
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  /* max-width: 1000px; */
+  position: relative;
+  /* margin: 0 0px 15px 0px; */
+}
+
+.active {
+  background-color: #000000;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+.mySlides img 
+{
+	width: 100%;
 }
