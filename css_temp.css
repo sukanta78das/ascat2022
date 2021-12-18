@@ -9,6 +9,7 @@
     font-size:20px;
 	font-family: "Roboto";
 	padding-right: "22px";
+	 float: left;
 }
 .TitleImage
 {
@@ -240,9 +241,11 @@ img {vertical-align: middle;}
 .WebContainer{
     width: 100%;
     height: auto;
+float: left;
 }
 .articles{
     width:80%; /*Takes 90% width from WebContainer*/
     height: auto;
     margin: auto;
+float: left;
 } 
