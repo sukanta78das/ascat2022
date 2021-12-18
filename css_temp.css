@@ -236,3 +236,13 @@ img {vertical-align: middle;}
 {
 	width: 100%;
 }
+
+.WebContainer{
+    width: 100%;
+    height: auto;
+}
+.articles{
+    width:80%; /*Takes 90% width from WebContainer*/
+    height: auto;
+    margin: auto;
+} 
