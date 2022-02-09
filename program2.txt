@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html>
+<title>Welcome to ASCAT 2022</title>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--------LINK--------->
+    <link type="text/css" media="screen" href="css_temp.css" rel="stylesheet" />
+    <!--------LINK--------->
+    <script src="main.js"></script>
+</head>
+
+<body>
+    <!--------Contain Tag--------->
+    <div class="title_name">First Asian Symposium on Cellular Automata Technology <br> (ASCAT 2022)</div></br>
+    <div class="title_des">
+        <!--Indian Institute of Engineering Science and Technology, Shibpur </br> -->
+        March 03-05, 2022 (Online)</br></br>
+    </div>
+    <div class="contain">
+
+        <div class="ContactInfo" style="padding-top:10px;">
+          <!--  <marquee onmouseover="this.stop()" onmouseout="this.start()">
+              <font class="font_style"> <i class="fa fa-phone"></i> Submission deadline is now extended to
+                    <b>November 15, 2021</b>        &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp <b>Submission link :</b> <a href="https://easychair.org/conferences/?conf=ascat2022">
+                        <font color="red">ASCAT 2022 </li>(click here)</font>
+            </marquee>-->
+        </div>
+
+        <div class="slideshow-container">
+            <div class="mySlides fade"> <img class="TitleImage" src="3.jpg"> </div>
+            <div class="mySlides fade"> <img class="TitleImage" src="1.jpg"> </div>
+            <div class="mySlides fade"> <img class="TitleImage" src="2.jpg"> </div>
+            <div class="mySlides fade"> <img class="TitleImage" src="11.jpg"> </div>
+            <div class="mySlides fade"> <img class="TitleImage" src="12.jpg"> </div>
+            <div class="mySlides fade"> <img class="TitleImage" src="13.jpg"> </div>
+            <div class="mySlides fade"> <img class="TitleImage" src="4.jpg"> </div>
+        </div>
+
+        <div class="MenuTab" id="navbar">
+            <ul class="ul">
+               <li class="li active"><a href="index.html">Home</a></li>
+                <li class="li"><a href="call-for-papers.html">Call for Papers</a></li>
+                <li class="li"><a href="submission.html">Submission</a></li>
+		<li class="li"><a href="accepted.html">Accepted Papers</a></li>
+                <li class="li"><a href="speaker.html">Invited Speakers</a></li>
+                <li class="li"><a href="committee.html">Committee</a></li>
+                <li class="li"><a href="program.html">Program</a></li>
+                <li class="li"><a href="registration.html">Registration</a></li>
+                <li class="li"><a href="venue.html">Venue</a></li>
+
+
+
+            </ul>
+        </div>
+        </br>
+        <div style=" width=100%">
+            <div style="float: right; width: 20%; padding:0px 0px 10px 0px">
+                <table width="100%">
+                    <tr>
+                        <td class="odd1">Important dates</td>
+                    </tr>
+ <tr>
+                        <td class="odd2">
+
+                              <li><b>Paper Submission deadline:</b> <br><s>Friday, October 22, 2021</s> <br><p class="item1">Friday, November 15, 2021 (Closed)</p>
+                            </li>
+                            <li><b>Notification to Authors:</b> <p class="item1"> Friday, December 17, 2021</p>
+                            </li>
+                            <li><b>Deadline for camera-ready papers:</b><p class="item1"> Tuesday, January 04, 2022</p>
+                            </li>
+                            <li><b>Conference:</b><p class="item1"> March 03-05, 2022</p>
+                            </li>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="odd1">Contacts</td>
+                    </tr>
+                    <tr>
+                        <td class="odd2">
+                            <ul>
+                                <b> Sukanta Das </b> (sukanta@it.iiests.ac.in) </br>
+                                <b> Biplab K Sikdar </b> (biplab@cs.iiests.ac.in)
+
+                            </ul>
+                        </td>
+                    </tr>
+                   <tr>
+                        <td class="odd1">Cellular Automata India</td>
+                    </tr>
+                    <tr>
+                        <td class="odd2">
+                            <ul class="item">
+                                <a href="https://www.youtube.com/channel/UCZr5vFtk5cPF9kwBrU92r5Q/featured">
+                                    <font color="blue">Visit our YouTube Channel (click here)</font>
+                                </a></br>
+
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="odd1">Publishers</td>
+                    </tr>
+                    <tr>
+                        <td align="center"><img id="img" width="100%" height="60%" src="download.jpeg"></br></br></td>
+                    </tr>
+		<tr>
+                        <td class="odd1">Sponsored by</td>
+                    </tr>
+                    <tr>
+                        <td align="center"><img id="img" width="100%" height="60%" src="sparc.jpg"></br></br></td>
+                    </tr>
+		<tr>
+                        <td class="odd1">Special Issue</td>
+                    </tr>
+			<td class="odd2">
+                            <ul>
+                               <li> <a href="https://www.oldcitypublishing.com/journals/jca-home/"><b> Journal of Cellular Automata</b> </a> </br></li>
+				<li><a href="https://www.complex-systems.com/"><b>Complex Systems</b></a> </br></li>
+
+                            </ul>
+                        </td>
+                </table>
+            </div>
+
+            </br></br>
+            <div id="main_contain">
+<div style="width: 80% ;">
+                <center>
+                    <font size = 5pt><b>Program Schedule</b></font>
+                </center> 
+<!----          </br>
+		<p style="text-align:justify">
+                   </br></br>
+		<div id="main_contain">-->
+
+                    <table border="0">
+                        <tr>
+                             <td style="vertical-align: top;vertical-align: top;padding: 20px 20px 20px 20px; background-color: aliceblue; text-align:justify">
+                    <div style="width:99% ; ">
+                                <hr class="new5">
+                                <ul>
+                                    <li><b>Paper ID 3.</b> Grade Estimation of Mineral Resources: An Application of Cellular Automata. Soumyadeep Paty and Supreeti Kamilya. </li>
+                                    </br>
+                                    <li><b>Paper ID 4.</b> Shape Generation using Cellular Automata with Clustering. Lynette Van Zijl and Caleb Zeeman. </li>
+                                    </br>
+				     <li> <b>Paper ID 7.</b> Evolution Patterns of Some One-Dimensional Non-uniform Cellular Automata. Sreeya Ghosh and Sumita Basu.</li></br>
+                                    <li><b>Paper ID 8.</b> Relationship of Two Discrete Dynamical Models: One-dimensional Cellular Automata and Integral Value Transformations. Sreeya Ghosh, Sudhakar Sahoo, Sk. Sarif Hassan, Jayanta Kumar Das and Pabitra Pal Choudhury.</li> </br>
+                                    <li><b>Paper ID 9.</b> Emulating Mersenne Twister with Cellular Automata. Kamalika Bhattacharjee, Nitin More, Shobhit Kumar Singh and Nikhil Verma. </li> </br>
+                                    <li><b>Paper ID 10.</b> Defining Reachability Tree under Adiabatic and Reflexive Boundary Condition Cellular Automata. Nazma Naskar and B K Sivaraj.</li> </br>
+                                    <li><b>Paper ID 11.</b> First Degree Cellular Automata as Pseudo-random Number Generators. Kamalika Bhattacharjee. </li> </br>
+                                    <li><b>Paper ID 13.</b> Asynchronous Cellular Automata with Sense of Democracy as a Good Pseudo-random Number Generator. Souvik Roy and Sumit Adak. </li> </br>
+                                    <li><b>Paper ID 15.</b> Cellular-automata based simulation of dynamic recrystallization and statistical analysis of resulting grain growth. Subramanian R S, Sai Shree Ramadev and Prince Gideon Kubendran Amos.</li> </br>
+                                    <li> <b>Paper ID 16.</b> A new notion of universality in respect of logic gates generation capability of ECAs. Raju Hazari. </li> </br>
+                                    <li><b>Paper ID 22.</b> Impact of Genetic Algorithm for Synthesis of Low Power QCA Logic Circuit. Bibhash Sen, Amit K Pramanik and Jayanta Pal. </li> </br>
+                                    <li><b>Paper ID 28.</b> Cellular automata based model for finding minimum spanning tree in wireless sensor networks. Parijat Sen and Debopriya Barman. </li> </br>
+                                    <li><b>Paper ID 29.</b> A Novel Hash Function based on Hybrid Cellular Automata and Sponge Functions. Anita John, Alan Reji, Ajay P Manoj, Atul Premachandran, Basil Zachariah and Jimmy Jose.</li> </br>
+                                    <li><b>Paper ID 30.</b> Synthesis of Single Length Cycle Two Attractor CA using NSRT Diagram. Suvadip Hazra and Mamata Dalui. </li> </br>
+                            </td>
+                        </br>
+		</tr>
+
+    <!----            </div>
+
+            </div>
+        </div>-->
+<h2 class="wsite-content-title"><font size="7">Final Programme</font></h2>
+
+<div class="paragraph"><font size="4"><span style="color:rgb(42, 42, 42)">All times are in British Standard Time (UK)<br><a href="https://www.wolframalpha.com/input/?i=London+time" target="_blank">Check local times with Wolfram|Alpha</a></span></font></div>
+
+<div class="wsite-spacer" style="height:50px;"></div>
+
+<div class="paragraph"><strong style="color:rgb(42, 42, 42)"><font size="6">​</font><br><font size="7">DAY 1<br>10 AUGUST</font></strong><br><br>​<br><font color="#626262" size="5">AFTERNOON SESSION</font><br><br><strong style="color:rgb(42, 42, 42)">Invited Talk:&nbsp;<br>Constructor Theory of Life and its applications</strong><br><span style="color:rgb(98, 98, 98)">Dr. Chiara Marletto</span><br><br><strong style="color:rgb(42, 42, 42)">2:50 PM - 3:00 PM</strong><br><strong style="color:rgb(42, 42, 42)">Opening and Introduction</strong><br><font color="#626262">​</font><br><strong style="color:rgb(42, 42, 42)">3 PM - 4:30 PM</strong><br><font color="#2a2a2a"><strong>Contributed talks</strong> (full paper authors: 30 min each)</font><ul><li><font size="4"><font color="#000000">Exploring Millions of 6-State FSSP Solutions: the Formal Notion of Local CA Simulation</font><br><font color="#818181">Nguyen Tien Thao and Luidnel Maignan</font></font></li><li><font size="4"><font color="#000000">Non-maximal sensitivity to synchronism in periodic elementary cellular automata: exact asymptotic measures</font><br><font color="#818181">Pedro Paulo B. De Oliveira, Enrico Formenti, Kévin Perrot</font><font color="#818181">, Sara Riva and Eurico L. P. Ruivo</font></font></li><li><font size="4"><font color="#000000">Cycle based Clustering using Reversible Cellular Automata</font><br><font color="#818181">Sukanya Mukherjee, Kamalika Bhattacharjee and Sukanta Das</font></font></li></ul><br><font color="#2a2a2a" size="4"><strong>4:30 PM - 5:30 PM BREAK</strong></font><br>​<br><font color="#626262" size="5">EVENING SESSION</font><br><br><strong style="color:rgb(42, 42, 42)">5:30 PM - 6:30 PM </strong><br><strong style="color:rgb(42, 42, 42)">Invited Talk</strong><br><strong><font color="#2a2a2a">The Role of Emergence in Open-ended Systems</font></strong><br><font color="#626262">Dr. Alyssa Adams</font><br>​<br><br></div>
+
+<div class="paragraph"><strong style="color:rgb(42, 42, 42)">6:30 PM - 8:00 PM</strong><br><strong><font color="#a82e2e">Admin Meeting of WG 1.5 (closed meeting, break for everyone else)</font></strong><br><br><font color="#2a2a2a"><strong>8:00 PM - 8:15 PM&nbsp;</strong><br><strong>Exploratory talk&nbsp;</strong>(15 min)</font><ul><li><font color="#000000">Formal Logic of Cellular Automata</font><br><font color="#626262">Sukanta Das and Mihir Chakraborty</font></li></ul><br><font color="#2a2a2a"><strong>8:20 PM - 9:00 PM</strong><strong>&nbsp;</strong></font><strong><strong style="color:rgb(42, 42, 42)">&nbsp;</strong></strong><strong style="color:rgb(42, 42, 42)">(40 min)</strong><strong><strong style="color:rgb(42, 42, 42)">&nbsp;(Invited Talk)</strong></strong><br><strong style="color:rgb(42, 42, 42)">Collision-based Computing with Cellular Automata</strong><br><font color="#626262">Dr. Genaro Martínez</font></div>
+
+<div class="wsite-spacer" style="height:43px;"></div>
+
+<div><div class="wsite-multicol"><div class="wsite-multicol-table-wrap" style="margin:0 -15px;">
+	<table class="wsite-multicol-table">
+		<tbody class="wsite-multicol-tbody">
+			<tr class="wsite-multicol-tr">
+				<td class="wsite-multicol-col" style="width:33.333333333333%; padding:0 15px;">
+					
+						
+
+<div class="wsite-spacer" style="height:50px;"></div>
+
+
+					
+				</td>				<td class="wsite-multicol-col" style="width:33.333333333333%; padding:0 15px;">
+					
+						
+
+<div><div style="height: 20px; overflow: hidden; width: 100%;"></div>
+<hr class="styled-hr" style="width:100%;">
+<div style="height: 20px; overflow: hidden; width: 100%;"></div></div>
+
+
+					
+				</td>				<td class="wsite-multicol-col" style="width:33.333333333333%; padding:0 15px;">
+					
+						
+
+<div class="wsite-spacer" style="height:50px;"></div>
+
+
+					
+				</td>			</tr>
+		</tbody>
+	</table>
+</div></div></div>
+
+<div class="wsite-spacer" style="height:41px;"></div>
+
+<div class="paragraph"><strong style="color:rgb(42, 42, 42)"><font size="7">DAY 2<br>11 AUGUST</font></strong><br><br><br><font size="5">AFTERNOON SESSION</font><br><br><strong style="color:rgb(42, 42, 42)">12:30 PM - 12:35</strong><br><font color="#2a2a2a">Opening and Introduction</font><br><br><strong style="color:rgb(42, 42, 42)">12:35 PM - 1:05 PM (30 min </strong><strong><font color="#2a2a2a">Invited talk</font></strong><strong style="color:rgb(42, 42, 42)">)</strong><br><strong><font color="#2a2a2a">Navigating Isotropic Cellular Automata Rule-space</font></strong><br><font color="#818181">Prof. Andrew Wuensche</font><br><br><strong style="color:rgb(42, 42, 42)">​1:05 PM - 2:05 PM</strong><br><strong><font color="#2a2a2a">Contributed talks&nbsp;</font></strong><font color="#2a2a2a">(full paper authors: 30 min each)</font><ul><li><font color="#2a2a2a">Commutative automata networks</font><br>Florian Bridoux, Maximilien Gadouleau and Guillaume Theyssier</li><li><font color="#2a2a2a">Cellular String Generators</font><br>Martin Kutrib and Andreas Malcher</li></ul><br><strong style="color:rgb(42, 42, 42)">2:05 PM - 3:00 PM</strong><strong style="color:rgb(42, 42, 42)">&nbsp;(40 min Invited Talk)</strong><br><strong><font color="#2a2a2a">Some control and observation issues in&nbsp; Cellular Automata</font></strong><br><font color="#626262">​Dr. Samira El Yacoubi</font><br><br><strong style="color:rgb(42, 42, 42)">3:00 PM - 3:10 PM</strong><strong style="color:rgb(42, 42, 42)">&nbsp;SHORT BREAK</strong><br><font color="#2a2a2a">​</font><br><strong style="color:rgb(42, 42, 42)">3:10 PM - 4:40 PM</strong><br><font color="#2a2a2a"><strong>Contributed talks</strong>&nbsp;(full paper authors: 30 min each)</font><ul><li><span style="color:rgb(0, 0, 0)">Everywhere Zero Pointwise Lyapunov Exponents for Sensitive Cellular Automata</span><br><font color="#626262">Toni Hotanen</font></li><li><font color="#000000">Self-Stabilizing Distributed Algorithms by Gellular Automata&nbsp;</font><br><font color="#626262">Taiga Hongu and Masami Hagiya</font></li><li><font color="#2a2a2a">A characterization of amenable groups with Besicovitch pseudodistances</font><br><font color="#626262">Silvio Capobianco, Pierre Guillon and Camille Noûs</font></li></ul><br><strong style="color:rgb(42, 42, 42)">4:40 PM - 5:30 PM (40 min) (Invited Talk)</strong><br><strong style="color:rgb(42, 42, 42)">Topological Dynamical Properties in Turing Machines</strong><br><font color="#2a2a2a">​</font><font color="#626262">Dr. Rodrigo Torres-Aviles</font><br><br><strong style="color:rgb(42, 42, 42)">5:30 PM - 6:00 PM BREAK</strong><br><br>​<br><font size="5">EVENING SESSION</font><br><br><font color="#2a2a2a"><strong>6:00 PM - 7:45 PM&nbsp;</strong><br><strong>Contributed talks</strong> (full paper authors: 30 min each)</font><ul><li><font color="#000000">Four heads are better than three</font><br><font color="#626262">Ville Salo</font></li><li><font color="#2a2a2a">Complexity of Generic Limit Sets of Cellular Automata</font><br>Ilkka Törmä</li></ul><ul><li><span style="color:rgb(0, 0, 0)">Latin Hypercubes and Cellular Automata</span><br><font color="#626262">Maximilien Gadouleau and Luca Mariot</font></li></ul> <font color="#2a2a2a"><strong>Exploratory Talk</strong> (15 min)</font><ul><li><font color="#2a2a2a">Optimising attractor computation in Boolean automata networks</font><br><font color="#626262">Pacôme Perrotin, Kévin Perrot and Sylvain Sené</font></li></ul><br><strong style="color:rgb(42, 42, 42)">7:45 PM - 8:30 PM&nbsp;BREAK</strong><br><br><font color="#2a2a2a"><strong>8:30 PM - 9:30 PM</strong></font><strong style="color:rgb(42, 42, 42)">&nbsp;(50 min + Q&amp;A) (Invited Talk)</strong><br><font><strong style="color:rgb(42, 42, 42)">A New Kind of Automata, that May Be Our Universe</strong><br><font color="#626262">Dr. Stephen Wolfram&nbsp;</font></font><br><br></div>
+
+<div class="wsite-spacer" style="height:23px;"></div>
+
+<div><div class="wsite-multicol"><div class="wsite-multicol-table-wrap" style="margin:0 -15px;">
+	<table class="wsite-multicol-table">
+		<tbody class="wsite-multicol-tbody">
+			<tr class="wsite-multicol-tr">
+				<td class="wsite-multicol-col" style="width:33.333333333333%; padding:0 15px;">
+					
+						
+
+<div class="wsite-spacer" style="height:50px;"></div>
+
+
+					
+				</td>				<td class="wsite-multicol-col" style="width:33.333333333333%; padding:0 15px;">
+					
+						
+
+<div><div style="height: 20px; overflow: hidden; width: 100%;"></div>
+<hr class="styled-hr" style="width:100%;">
+<div style="height: 20px; overflow: hidden; width: 100%;"></div></div>
+
+
+					
+				</td>				<td class="wsite-multicol-col" style="width:33.333333333333%; padding:0 15px;">
+					
+						
+
+<div class="wsite-spacer" style="height:50px;"></div>
+
+
+					
+				</td>			</tr>
+		</tbody>
+	</table>
+</div></div></div>
+
+<div class="wsite-spacer" style="height:50px;"></div>
+
+<div class="paragraph"><strong style="color:rgb(42, 42, 42)"><font size="7">DAY 3<br>12 AUGUST</font><br><br><br><font size="6">Special Session on Algorithmic Information Dynamics (AID)</font></strong><br><br>​<br><strong style="color:rgb(42, 42, 42)">2:30 PM - 3:00 PM</strong><br><font color="#2a2a2a">Brief introduction to AID</font><br><font color="#626262">Dr. Hector Zenil and Dr. Narsis Kiani</font><br><br><strong style="color:rgb(42, 42, 42)">3:00 PM - 3:35 PM</strong><br><span style="color:rgb(42, 42, 42)">AID and Algorithmic Complex Networks</span><br><font color="#626262">Dr. Felipe&nbsp;S. Abrahão</font><br><br><strong style="color:rgb(42, 42, 42)">3:35 PM - 4:15 PM</strong><br><font color="#2a2a2a">AID in Machine Learning &amp; Machine Learning in Cellular Automata</font><br><font color="#626262">Dr. Santiago Hernández-Orozco and Dr. Jürgen Riedel</font><br><br><strong style="color:rgb(42, 42, 42)">4:15 PM - 4:25 PM</strong><br><span style="color:rgb(34, 34, 34)">Block Decomposition Method and Traditional Machine Learning for Epileptic Seizure Prediction</span><br><span style="font-weight:400"><font color="#626262">Dr. Victor Iapascurta</font></span><br><br><strong style="color:rgb(42, 42, 42)">4:25 PM - 4:45 PM</strong><br><font color="#2a2a2a">Automacoin, a cryptocurrency for Algorithmic Information Dynamics</font><br><font color="#626262">Cameron Sajedi and Martin Lind</font><br><br><strong style="color:rgb(42, 42, 42)">4:45 PM AUTOMATA 2020 CLOSES</strong></div>
+
+<div class="wsite-spacer" style="height:50px;"></div>
+
+<div><div style="height: 20px; overflow: hidden; width: 100%;"></div>
+<hr class="styled-hr" style="width:100%;">
+<div style="height: 20px; overflow: hidden; width: 100%;"></div></div>
+
+<div class="wsite-spacer" style="height:89px;"></div>
+
+<h2 class="wsite-content-title"><font size="7">Social Programme</font><br><font color="#a82e2e" size="4">(cancelled due to COVID19)</font></h2>
+
+<div class="wsite-spacer" style="height:44px;"></div>
+
+<div class="paragraph" style="text-align:left;"><strong><font color="#515151">​</font></strong><font color="#515151">Dinner will be at the Pelikan, one of the most popular typical Swedish restaurants in the capital city located in one of the most vibrant neighbourhoods of Stockholm. They are famous for their original Swedish meatballs, herring, cheese, and other dishes.<br>​</font><br><strong><font color="#3f3f3f">Each attendant will have a choice of menu among these three options:</font></strong></div>
+
+<div class="wsite-spacer" style="height:32px;"></div>
+
+<div class="paragraph" style="text-align:center;"><strong><span><font color="#3f3f3f">MENU 1 “s.o.s” </font></span></strong><br><span><font color="#3f3f3f">assortment of pickled herring &amp; cheese </font></span><br><span><font color="#3f3f3f">Pelikan´s meatballs w. cream sauce, gherkins, lingonberries &amp; potato purée blueberry </font></span><br><span><font color="#3f3f3f">pie w. vanilla ice cream&nbsp;</font></span><br><br><strong><span><font color="#3f3f3f">MENU 2 </font></span></strong><br><span><font color="#3f3f3f">charcuterie &amp; cheese plate<br>fried arctic char and a small fish burger w. herb sauce trout roe<br>chocolate cake w. raspberry sauce &amp; whipped cream</font></span><br><br><span><font color="#3f3f3f"><strong>MENU 3 (Vegetarian) </strong><br>green salad<br>potato dumplings with mushroom, browned butter and spinach<br>scoop of sorbet</font></span></div>
+
+<div><div style="height: 0px; overflow: hidden;"></div>
+ <table width="70%">
+                    <tr>
+                        <td align="center" width="50%"><img id="img" height=20%" src="download.png">&nbsp&nbsp</td>
+                        <td align="center" width="50%"><img id="img" height=20%" src="download.jpeg"></td>
+                        <td align="center" width="50%"><img id="img" height=20%" src="JCAcover.jpg"></td>
+			<td align="center" width="50%"><img id="img" height=20%" src="complexSystems.jpg">&nbsp&nbsp</td>
+                    </tr>
+                </table>
+            </div>
+
+
+            <!----------Contain Tag------->
+            <script>
+                //window.onscroll = function () { myFunction() };
+                var navbar = document.getElementById("navbar");
+                var sticky = navbar.offsetTop;
+                function myFunction() {
+                    if (window.pageYOffset >= sticky) {
+                        navbar.classList.add("sticky")
+                    }
+                    else {
+                        navbar.classList.remove("sticky");
+                    }
+                }
+                showSlides();
+            </script>
