@@ -253,6 +253,8 @@ float: left;
  a:hover { color: #e67700; }
  a img { border: 0; }
 a:hover { color: #e67700; }
+td.wsite-multicol-col { float: none; display: block; width: 100% !important; box-sizing: border-box; }
+
 div.paragraph ul, div.paragraph ol { padding-left: 3em !important; margin: 5px 0 !important; }
 div.paragraph li { padding-left: 5px !important; margin: 3px 0 0 !important; }
 div.paragraph ul, div.paragraph ul li { list-style: disc outside !important; }
